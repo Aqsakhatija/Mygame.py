@@ -1,4 +1,4 @@
-#Define a function that finds the median value of three numbers 
+#Define a function that finds the median value of three numbers
 def median (x,y,z):
     sorted_list=sorted(list(x,y,z))
     return sorted_list[1]

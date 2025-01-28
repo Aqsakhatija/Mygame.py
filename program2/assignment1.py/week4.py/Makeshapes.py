@@ -1,0 +1,12 @@
+import turtle
+t1=turtle.Turtle()
+sc=turtle.Screen()
+sc.bgcolor('purple')
+sc.screensize(400,400)
+t1.color('black')
+t1.shape('circle')
+t1.pendown()
+t1.pencolor('grey')
+t1.pensize(5)
+t1.forward(100)
+sc.exitonclick()
